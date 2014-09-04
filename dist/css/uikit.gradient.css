@@ -1689,7 +1689,7 @@ ul.uk-nav-sub {
 /* Modifier: `uk-nav-parent-icon`
  ========================================================================== */
 .uk-nav-parent-icon > .uk-parent > a:after {
-  content: "\f104";
+  content: "\f105";
   width: 20px;
   margin-right: -10px;
   float: right;
@@ -3028,7 +3028,9 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover {
 .uk-form input[type="email"],
 .uk-form input[type="url"],
 .uk-form input[type="search"],
-.uk-form input[type="tel"] {
+.uk-form input[type="tel"],
+.uk-form input[type="number"],
+.uk-form input[type="datetime"] {
   -webkit-appearance: none;
 }
 /*

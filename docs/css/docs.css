@@ -216,7 +216,6 @@ html {
     position: relative;
     width: 80px;
     margin: -60px auto 0 auto;
-    border-radius: 5px;
     background: #0BA1D8;
     line-height: 80px;
     color: #fff;
@@ -282,7 +281,6 @@ html {
     height: 40px;
     margin: 0;
     border: none;
-    border-radius: 3px !important;
     text-shadow: none;
     font-size: 15px;
 }
@@ -610,7 +608,6 @@ html {
     width: 15px;
     height: 15px;
     margin: 5px;
-    border-radius: 2px;
     float: right;
     cursor: pointer;
 
@@ -620,7 +617,6 @@ html {
 .sp-placeholder-color {
     width: 15px;
     height: 15px;
-    border-radius: 2px;
     box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1) inset;
 }
 
@@ -636,12 +632,10 @@ html {
     width: 15px;
     margin: 0;
     border: none;
-    border-radius: 2px;
 }
 
 .sp-preview-inner {
     box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1) inset;
-    border-radius: 2px;
 }
 
 .sp-dd { display: none; }
@@ -649,7 +643,6 @@ html {
 .sp-container {
     border: 1px solid #d3d3d3;
     background-color: #fff;
-    border-radius: 4px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
@@ -660,7 +653,6 @@ input.sp-input {
     padding: 5px 6px;
     border: 1px solid #e5e5e5;
     background: #fff;
-    border-radius: 4px;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08) inset;
     color: #444;
     transition: all 0.2s linear 0s;
@@ -678,7 +670,6 @@ input.sp-input {
     width: 10px;
     border: none;
     background: #fff;
-    border-radius: 10px;
     box-shadow: 0 0 3px rgba(0,0,0,0.5);
 }
 
@@ -708,7 +699,6 @@ input.sp-input {
     padding: 0 12px;
     border: 1px solid rgba(0,0,0,0.2);
     border-bottom-color: rgba(0,0,0,0.3);
-    border-radius: 4px;
     background-color: #eee;
     background-image: -webkit-linear-gradient(top, #fff, #eee);
     background-image: linear-gradient(to bottom, #fff, #eee);
